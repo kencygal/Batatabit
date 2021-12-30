@@ -1,0 +1,3 @@
+#ignora los .svg y .jpg
+/assets
+/style-guide
