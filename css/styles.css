@@ -105,3 +105,106 @@ header .header-descripcion{
     background-repeat: no-repeat;
     margin-left: 10px;
 }
+
+/* EXCHANGE SECCION*/
+.exchange-rate{
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--off-white);
+    text-align: center;
+    padding: 60px 15px;
+}
+.exchange-rate img{
+    width: 195px;
+    height: 195px;
+}
+.exchange-rate .exchange__title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 40px 0 24px 0;
+}
+.exchange-rate .exchange__description{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--warn-grey);
+    margin-bottom: 48px;
+}
+.exchange-rate .table-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+.exchange-rate .table-title-orange{
+    color: var(--bitcoin-orange);
+}
+.exchange-rate .table-title-blue{
+    color: var(--secondary-blue);
+}
+/* table */
+.table-component{
+    width: 195px;
+    font-family: var(--secondary-font);
+    margin: 12px auto;
+}
+.table-component td{
+    padding: 10px 12px;
+    background-color: var(--just-white);
+}
+.table-component .right{
+    color: #B5B0AC;
+    font-size: 1.6rem;
+}
+.table-component .left{
+    color: var(--warn-grey);
+    font-size: 1.4rem;
+}
+.table-component .br-lt{
+    border-radius: 8px 0px 0px 0px;
+}
+.table-component .br-rt{
+    border-radius: 0px 8px 0px 0px;
+}
+.table-component .br-lb{
+    border-radius: 0px 0px 0px 8px;
+}
+.table-component .br-rb{
+    border-radius: 0px 0px 8px 0px;
+}
+.table-component td span{
+    display: inline-block;
+    margin-left: 10px;
+    width: 13px;
+    height: 10px;
+    background-repeat: no-repeat;
+}
+span.trending-up{
+    background-image: url(../assets/icons/trending-up.svg);
+}
+span.trending-down{
+    background-image: url(../assets/icons/trending-down.svg);
+}
+
+/* alert */
+.alert {
+    width: 185px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
+.alert span{
+    font-weight: 700;
+}
+.alert-orange{
+    background-color: var(--soft-orange);
+    margin: 0 auto 20px auto; 
+}
+.alert-blue{
+    background-color: var(--soft-blue);
+    margin: 0 auto;
+}
