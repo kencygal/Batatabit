@@ -247,7 +247,7 @@ span.trending-down{
     padding: 16px;
     background-color: var(--black);
     border-radius: 4px;
-    margin-bottom: 16px;
+    margin: 0 auto 16px auto;
 }
 .benefit-card:last-child{
     margin-bottom: 0;
@@ -393,4 +393,27 @@ span.trending-down{
     background-image: url(../assets/icons/orange-right-arrow.svg);
     background-repeat: no-repeat;
     align-self: center;
+}
+
+/* FOOTER */
+.page-footer{
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    background-color: var(--bitcoin-orange);
+}
+.page-footer .footer__brand li{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--just-white);
+    padding: 4px 0;
+    list-style: none;
+}
+
+.page-footer .footer__logo{
+    width: 64px;
 }
