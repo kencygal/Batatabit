@@ -285,3 +285,22 @@ span.trending-down{
 .benefit-card .icon-check{
     background-image: url(../assets/icons/check-circle.svg);
 }
+
+/* SECTION MEET */
+.meet{
+    width: 100%;
+    min-width: 320px;
+    height: 380px;
+    background-image: url(../assets/img/bitcoinbaby2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 64px;
+}
+.meet .meet__title{
+    font-size: 2.4rem;
+    color: var(--just-white);
+    font-weight: 700;
+    text-align: center;
+    
+}
