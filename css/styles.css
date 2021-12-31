@@ -24,4 +24,84 @@ html{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
 
+/* GLOBAL */
+/* buttons*/
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--warm-black);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    min-width: 320px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 16px;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header .header-logo{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--bitcoin-orange);
+}
+header .header-logo span{
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../assets/icons/batata.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 8.5px;
+    transform: scaleX(-1);
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--just-white);
+    margin: 36px 0 24px 0;
+}
+header .header-descripcion{
+    font-size: 1.4rem;
+    color: var(--soft-orange);
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+/* button-know */
+.button-know{
+    width: 229px;
+    height: 48px;
+    position: absolute;
+    bottom: -48px;
+    box-shadow: 0px 4px 8px 0px #59491E29;
+    margin-bottom: 20px;
+    background-color: var(--just-white);
+}
+.button-know span{
+    display: inline;
+    width: 14px;
+    height: 8px;
+    background-image: url(../assets/icons/down-arrow.svg);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
