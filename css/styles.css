@@ -45,7 +45,7 @@ body{
 }
 
 /* HEADER */
-header{
+.page-header{
     width: 100%;
     min-width: 320px;
     height: 300px;
@@ -58,12 +58,12 @@ header{
     padding: 60px 16px;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
-header .header-logo{
+.page-header .header-logo{
     font-size: 2.4rem;
     font-weight: 700;
     color: var(--bitcoin-orange);
 }
-header .header-logo span{
+.page-header .header-logo span{
     width: 40px;
     height: 24px;
     display: inline-block;
@@ -74,14 +74,14 @@ header .header-logo span{
     margin-right: 8.5px;
     transform: scaleX(-1);
 }
-header h1 {
+.page-header h1 {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 26px;
     color: var(--just-white);
     margin: 36px 0 24px 0;
 }
-header .header-descripcion{
+.page-header .header-descripcion{
     font-size: 1.4rem;
     color: var(--soft-orange);
     line-height: 18px;
@@ -207,4 +207,81 @@ span.trending-down{
 .alert-blue{
     background-color: var(--soft-blue);
     margin: 0 auto;
+}
+
+/* SECTION DESCRIPTION PRODUCT */
+.description-product{
+    width: 100%;
+    min-width: 320px;
+    position: relative;
+    background-color: var(--warm-black);
+    padding: 64px 15px;
+    text-align: center;
+}
+.description-product .description-product__logo{
+    width: 40px;
+    height: 24px;
+    position: absolute;
+    top: -12px;
+    left: calc(50% - 20px);
+    display: inline-block;
+    background-image: url(../assets/icons/batata.svg);
+    background-size: cover;
+}
+.description-product .description-product__title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--just-white);
+}
+.description-product .description-product__description{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--warn-grey);
+    margin: 24px 0 32px 0;
+}
+/* benefit-card*/
+.benefit-card{
+    width: 288px;
+    min-height: 152px;
+    padding: 16px;
+    background-color: var(--black);
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.benefit-card:last-child{
+    margin-bottom: 0;
+}
+.benefit-card .card-title p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--just-white);
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.benefit-card .card-description{
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 500;
+    color: #808080;
+    line-height: 18px;
+}
+.benefit-card .icon{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.benefit-card .icon-clock{
+    background-image: url(../assets/icons/clock.svg);
+}
+.benefit-card .icon-eye{
+    background-image: url(../assets/icons/eye.svg);
+}
+.benefit-card .icon-money{
+    background-image: url(../assets/icons/dollar-sign.svg);
+}
+.benefit-card .icon-check{
+    background-image: url(../assets/icons/check-circle.svg);
 }
