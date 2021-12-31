@@ -304,3 +304,93 @@ span.trending-down{
     text-align: center;
     
 }
+
+/* SECTION PLAN*/
+.plan{
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--off-white);
+    padding: 64px 17px;
+    text-align: center;
+}
+.plan .plan__title{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--warm-black);
+}
+.plan .plan__description{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--warn-grey);
+    margin: 34px 0;
+}
+
+/*plan card*/
+.plan-card{
+    width: 190px;
+    height: 247px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--just-white);
+    padding: 31px 16px 24px 16px;
+    box-shadow: 0px 4px 8px 0px #59491E29;
+    margin: 0 auto;
+}
+.plan-card .recommend{
+    width: 101px;
+    height: 31px;
+    position: absolute;
+    top: -7px;
+    padding: 8px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    text-align: center;
+    color: var(--just-white);
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.plan-card .card-type-pay{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    margin-bottom: 8px;
+}
+.plan-card .card-price-pay{
+    font-size: 5.2rem;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    letter-spacing: -0.08em;
+    margin-bottom: 10px;
+}
+.plan-card .card-price-pay span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    vertical-align: 30px;
+}
+.plan-card .card-description-pay{
+    font-size: 1.2rem;
+    color: var(--warn-grey);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+/* button choose */
+.button-choose{
+    width: 151px;
+    height: 48px;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-orange);
+}
+.button-choose span{
+    width: 24px;
+    height: 22px;
+    margin-left: 10px;
+    background-image: url(../assets/icons/orange-right-arrow.svg);
+    background-repeat: no-repeat;
+    align-self: center;
+}
